@@ -7,9 +7,9 @@ spring:
     config:
       server:
         git:
-          url: https://github.com/jordyreyesju/bootcamp-config-server.git
-          username:
-          password:
+          uri: https://github.com/jordyreyesju/bootcamp-config-server.git
+          username: jordyreyesju
+          password: Jre181731994+
           default-label: main
   profiles:
     active: git
