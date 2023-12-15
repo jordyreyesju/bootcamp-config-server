@@ -1,0 +1,15 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          url: https://github.com/jordyreyesju/bootcamp-config-server.git
+          username:
+          password:
+          default-label: main
+  profiles:
+    active: git
